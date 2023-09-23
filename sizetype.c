@@ -23,7 +23,7 @@ int main(){
     char d;
     // printf("\nEnter an character: ");
     // scanf("%c",&a);
-    printf("%d",sizeof(d));
+    printf("\nthe size of character is %d",sizeof(d));
 
 
    

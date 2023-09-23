@@ -16,4 +16,5 @@ void main(){
     int bye;
     printf("\nPress any key to close the terminal");
     scanf("%d",&bye);
+    
 }
