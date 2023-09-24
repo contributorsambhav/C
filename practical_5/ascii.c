@@ -7,9 +7,9 @@ int main(){
 
     char c;
     printf("Enter character");
-    scanf("%c",c);
+    scanf("%c",&c);
 
-    printf("The associated ascii value is %d",c);
+    printf("The associated ascii value of %c is %d",c,c);
 
 
     return 0;

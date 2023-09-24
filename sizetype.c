@@ -3,20 +3,20 @@
 int main(){
 
     int a;
-    printf("Enter an integer: ");
-    scanf("%d",&a);
+    // printf("Enter an integer: ");
+    // scanf("%d",&a);
     printf("%d",sizeof(a));
     
 
     float b;
-    printf("\nEnter a floating number: ");
-    scanf("%f",&b);
+    // printf("\nEnter a floating number: ");
+    // scanf("%f",&b);
     printf("%d",sizeof(b));
 
 
     double c;
-    printf("\nEnter an Double: ");
-    scanf("%d",&c);
+    // printf("\nEnter an Double: ");
+    // scanf("%d",&c);
     printf("%d",sizeof(c));
 
 
