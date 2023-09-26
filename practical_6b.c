@@ -6,7 +6,7 @@
 
 int main(){
 int r,c,a;
-const pi=3.14;
+float pi=3.14;
 
 printf("Enter the radius: ");
 scanf("%d",&r);
