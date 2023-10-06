@@ -14,7 +14,7 @@ printf("Enter the breadth: ");
 scanf("%d",&b);
 
 a=l*b;
-printf("The area of rectangle is %d",a);
+printf("The area of rectangle is %d\n",a);
 
 printf("The perimeter of rectangle is %d",2*(l+b));
 

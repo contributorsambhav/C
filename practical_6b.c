@@ -5,17 +5,17 @@
 #include <stdio.h>
 
 int main(){
-int r,c,a;
-float pi=3.14;
+float r,c,a;
+const float pi=3.14;
 
 printf("Enter the radius: ");
-scanf("%d",&r);
+scanf("%f",&r);
 
-c=2*pi*r;
-printf("The circumference of circle is %d\n",c);
+c=(float) 2*pi*r;
+printf("The circumference of circle is %f\n",c);
 
-a=pi*r*r;
-printf("The area of circle is %d",a);
+a=(float) pi*r*r;
+printf("The area of circle is %f",a);
 
 
     return 0 ;
