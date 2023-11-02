@@ -30,9 +30,9 @@ int main() {
 
     // Check if the number is Armstrong
     if (result == number)
-        printf("%d is an Armstrong number.\n");
+        printf("%d is an Armstrong number.\n",number);
     else
-        printf("%d is not an Armstrong number.\n");
+        printf("%d is not an Armstrong number.\n",number);
 
     return 0;
 }
