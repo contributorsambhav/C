@@ -8,13 +8,13 @@ int fac(int n)
 
 int main()
 {
-    int a, c;
+    int a;
     printf("enter n:");
     scanf("%d", &a);
 
-    for (int i = 0; i < a; ++i)
+    for (int i = 0; i <= a; ++i)
     {
-        for (int j = 0; j < i; ++j)
+        for (int j = 0; j <= i; ++j)
         {
             int c = fac(i) / (fac(i - j) * fac(j));
             printf("%d", c);
