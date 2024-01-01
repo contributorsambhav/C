@@ -22,16 +22,7 @@ for (int j=1;j<b;j++){
  }
 }
 
-int min = arr[0];
-int smin  = min ;
-for (int i=1;i<b;i++){
- if (arr[i]<min){
-    smin = min;
-    min = arr[i];
-    
- }
-}
+
 printf("second largest no is %d\n",smax);
-printf("second smallest no is %d\n",smin);
 
 }

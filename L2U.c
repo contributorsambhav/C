@@ -10,7 +10,7 @@ void upper(char* str)
 	for (int i = 0; str[i] != '\0'; i++) { 
 
 		c = str[i]; 
-        d = c; // typecast
+        
         if(c>=97&&c<=122){
         d = c-32;
         } 

@@ -1,18 +1,16 @@
 #include <stdio.h>
+int fac(int n){
+    if(n == 1) return 1;
+    return n*fac(n-1);
+}
 
 int main(){
-
-    int l;
-    int b;
+    int a,r;
+    printf("enter n:");
+    scanf("%d",&a);
+    printf("enter r:");
+    scanf("%d",&r);
+    int  c = fac(a)/(fac(a-r)*fac(r));   
+    printf("%d",c);
     
-    printf("Enter desired length:  ");
-    scanf("%f", &b);
-
-    int area = (l*b);
-    printf("The area of reactangle is %d",area);
-
-    int bye;
-    printf("\nPress any key to close the terminal");
-    scanf("%d",&bye);
-   
 }
