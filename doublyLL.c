@@ -7,6 +7,9 @@ struct student {
     int roll;
     float CGPI;
     struct student *next;  
+    struct student *prev;  
+
+
 };
 
 void printList(struct student *node) {
@@ -50,6 +53,14 @@ void allocator(struct student **header) {
                 temp = temp->next;
             }
             temp->next = newNode;
+
+
+            struct student *prevtemp = *header;
+            while (prevtemp->next->next != NULL) {
+                prevtemp = prevtemp->next;
+            }
+            temp->prev = newNode;
+
         }
     }
 }
@@ -169,12 +180,11 @@ void deleteEnd(struct student **header) {
     temp->next = NULL;
 }
 
-
 void deleteAtPosition(struct student **header, int position) {
 
      if (position <= 0 || floor(position) != position){
     printf("position can't be negative or fraction");
-   }else{8['']
+   }else{
 
     if (*header == NULL) {
         printf("List is empty.\n");

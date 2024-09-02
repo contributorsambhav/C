@@ -51,7 +51,6 @@ void deleteLastNode(struct student **header) {
         return;
     }
 
-    // If there's only one node in the list
     if ((*header)->next == NULL) {
         free(*header);
         *header = NULL;
